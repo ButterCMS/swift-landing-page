@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="Styles/Stylesheet.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Erica+One&family=Roboto+Slab:wght@100;200;300;400;500;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Proton</title>
+  </head>
+  <body>
+    <div class="main-header">
+      <div class="logo">
+        <img src="Images/proton-logo.svg" alt="Logo" />
+      </div>
+      <p class="logo-text">PROTONE</p>
+      <nav class="tabs">
+        <ul>
+          <li><a href="#product">Product</a></li>
+          <li><a href="#use-cases">Use Cases</a></li>
+        </ul>
+      </nav>
+      <div class="actions">
+        <div class="price-tab">Price</div>
+        <div class="resources-tab">Resources</div>
+        <button class="get-started-button">Get Started</button>
+      </div>
+    </div>
+    <div class="main-content">
+      <div class="hero-text">
+        <div class="hero-heading">
+          <h1>#(data.heroSection.headlineText)</h1>
+        </div>
+        <p class="hero-paragraph">#(data.heroSection.subHeadlineText)</p>
+        <button class="hero-cta-button">
+          #(data.heroSection.callToActionText)
+        </button>
+        <div class="card-lunch">
+          <img src="#(data.heroSection.creditCard)" alt="" />
+          <p>#(data.heroSection.creditCardText)</p>
+          <img src="#(data.heroSection.rocketImg)" alt="" />
+          <p>#(data.heroSection.rocketText)</p>
+        </div>
+      </div>
+    </div>
+    <div class="landing-img">
+      <div class="stack-circle">
+        <div class="second-stack-circle">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            version="1.0"
+            width="80px"
+            height="80px"
+            viewBox="0 0 512.000000 512.000000"
+            preserveAspectRatio="xMidYMid meet"
+          >
+            <g
+              transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
+              fill="#0c30e1"
+              stroke="none"
+            >
+              <path
+                d="M620 5110 c-71 -15 -151 -60 -206 -115 -86 -85 -137 -210 -154 -375 -13 -129 -13 -3991 0 -4120 17 -165 68 -290 154 -375 149 -149 373 -163 619 -39 76 37 3457 1975 3546 2031 31 20 90 70 131 112 159 161 196 340 107 521 -37 76 -152 198 -238 253 -89 56 -3470 1994 -3546 2031 -37 19 -97 44 -133 56 -74 24 -214 34 -280 20z"
+                fill="#0c30e1"
+              />
+            </g>
+          </svg>
+        </div>
+      </div>
+      <img src="#(data.heroSection.heroImg)" alt="hero-image" />
+    </div>
+    <div class="protone-cta">
+      <p>See protone in action</p>
+    </div>
+    <div class="new-container">
+      <div class="big-container">
+        <div class="container-text">
+          <p>#(data.product.headlineText)</p>
+          <p>#(data.product.subHeadlineText)</p>
+          <div class="client-review">
+            <div class="blue-tag">
+              <div class="blue-tag-text">
+                <p>#(data.product.salesQuotes)</p>
+                <div class="sizedbox"></div>
+                <div class="avatar-container">
+                  <div class="avatar">
+                    <img src="#(data.product.salesAvatar)" alt="" />
+                  </div>
+                  <div class="avatartext">
+                    <p>#(data.product.salesName)</p>
+                    <p>Product sales</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container-image">
+          <img src="#(data.product.productImg)" alt="iphone mock up image" />
+        </div>
+      </div>
+    </div>
+    <div></div>
+    <div class="new-container2">
+      <div class="big-container2">
+        <div class="container-image2">
+          <img
+            src="#(data.otherProduct.productImg)"
+            alt="iphone mock up image"
+          />
+        </div>
+        <div class="container-text2">
+          <p>#(data.otherProduct.headlineText)</p>
+          <p>#(data.otherProduct.subHeadlineText)</p>
+          <div class="client-review2">
+            <div class="blue-tag2">
+              <div class="blue-tag-text2">
+                <p>#(data.otherProduct.salesQuotes)</p>
+                <div class="sizedbox"></div>
+
+                <div class="avatar-container2">
+                  <div class="avatar2">
+                    <img src="#(data.product.salesAvatar)" alt="" />
+                  </div>
+                  <div class="avatartext2">
+                    <p>Wande Cole</p>
+                    <p>Product sales</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="new-container3">
+      <img src="#(data.download.productImg)" alt="iphone mock up image" />
+      <div class="container-text3">
+        <p>#(data.download.headlineText)</p>
+        <p>#(data.download.subText)</p>
+        <div class="email-input">
+          <input type="email" placeholder="Enter your email" />
+          <button>Send link</button>
+        </div>
+        <p>
+          By clicking "Send link" you agree to our Terms of
+          <a href="">Service</a> and <a href="">Privacy Policy</a>
+        </p>
+        <div class="download-btn">
+          <button class="btn btn--ios btn--radius">
+            <img class="btn__logo" src="#(data.download.appleImg)" alt="" />
+            <div class="btn__content btn__content--big">Download</div>
+            <div class="btn__content">on the App Store</div>
+          </button>
+          <div class="sizedbox"></div>
+          <button class="btn btn--android btn--radius">
+            <img class="btn__logo" src="#(data.download.playstoreImg)" alt="" />
+            <div class="btn__content btn__content--big">Download</div>
+            <div class="btn__content">on Google Play</div>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div>
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="footer-col">
+              <p class="logo-text-footer">PROTONE</p>
+            </div>
+            <div class="footer-col">
+              <h4>get help</h4>
+              <ul>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">shipping</a></li>
+                <li><a href="#">returns</a></li>
+                <li><a href="#">order status</a></li>
+                <li><a href="#">payment options</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>online shop</h4>
+              <ul>
+                <li><a href="#">watch</a></li>
+                <li><a href="#">bag</a></li>
+                <li><a href="#">shoes</a></li>
+                <li><a href="#">dress</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>follow us</h4>
+              <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
